@@ -42,3 +42,4 @@ NewVMsInDomain	DiLabVMClient DiLabVMSvcClient Subnet-1 DILabsVNET 1  DITestUser 
 write-host "Cloud Configuration and Provision completed @"  (Get-Date).ToString()
 $time.Stop()
 Write-Host "End to End completed in "  $time.Elapsed 
+
