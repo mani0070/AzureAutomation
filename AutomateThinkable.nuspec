@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AutomateThinkable</id>
+    <version>0.2.6</version>
+    <authors>Manimaran Chandrasekaran</authors>
+    <owners>Manimaran Chandrasekaran</owners>
+    <licenseUrl>http://devopspractice.com/</licenseUrl>
+    <projectUrl>http://github.com/mani0070/AzureAutomation</projectUrl>
+    <iconUrl>https://secure.gravatar.com/userimage/59406788/8b6059aa430bdf03a01206301fda903d.jpg</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This Package contains all the scripts required for setting up complete Infrastructure in Azure, configure the servers and deploy the code </description>
+    <releaseNotes>This release is first of the package.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>Azure Powershell Automation DevOps Windows </tags>
+  </metadata>
+  <files>
+    <file src="tools\**\*.*" target="\tools\" />
+	<file src="azureinfrastructureascode\**\*.*" target="\azureinfrastructureascode\" />	
+	<file src="softwaredeliveryascode\**\*.*" target="\softwaredeliveryascode\" />
+	<file src="ExecBootup.ps1" target="\tools\" />
+	<file src="README.MD" target="\README.MD" />
+  </files>  
+</package>
